@@ -151,6 +151,7 @@ GameObject:
   - component: {fileID: 6541869689653038986}
   - component: {fileID: 6003966950840864669}
   - component: {fileID: 2338068785604803821}
+  - component: {fileID: -2547439476267972051}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -401,3 +402,11 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &-2547439476267972051
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3377922951358399111}
+  m_Mesh: {fileID: -2632696962919592162, guid: c7f012b2f0c47f6409146ea890ca87a0, type: 3}
