@@ -103,10 +103,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.003065841
   m_SuspensionSpring:
-    spring: 35000
-    damper: 4500
+    spring: 107
+    damper: 10.7
     targetPosition: 0.5
-  m_SuspensionDistance: 0.003
+  m_SuspensionDistance: 0.0135
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -371,10 +371,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.003065841
   m_SuspensionSpring:
-    spring: 35000
-    damper: 4500
+    spring: 107
+    damper: 10.7
     targetPosition: 0.5
-  m_SuspensionDistance: 0.003
+  m_SuspensionDistance: 0.0135
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -502,10 +502,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.003065841
   m_SuspensionSpring:
-    spring: 35000
-    damper: 4500
+    spring: 107
+    damper: 10.7
     targetPosition: 0.5
-  m_SuspensionDistance: 0.003
+  m_SuspensionDistance: 0.0135
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -633,10 +633,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.003065841
   m_SuspensionSpring:
-    spring: 35000
-    damper: 4500
+    spring: 107
+    damper: 10.7
     targetPosition: 0.5
-  m_SuspensionDistance: 0.003
+  m_SuspensionDistance: 0.0135
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -918,6 +918,11 @@ MonoBehaviour:
   rb: {fileID: 8001487985300922743}
   moveInput: {x: 0, y: 0, z: 0}
   playerMove: {fileID: 5305810912380451270}
+  speedMultiplier: 0.05
+  forceMultiplier: 0.1
+  maxVelocity: 40
+  baseAcceleration: 0.1
+  accelerationScale: 0.02
 --- !u!54 &8001487985300922743
 Rigidbody:
   m_ObjectHideFlags: 0
