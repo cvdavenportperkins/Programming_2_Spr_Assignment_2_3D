@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 8c62045aa0988724b8a1dec3ec70e0cf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerRigidbody: {fileID: 8001487985300922743, guid: 5c3f9d432fcb7f744a0b95af765ec4b1, type: 3}
+  - countdownText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering;
 
-public class PlayerInputManager : MonoBehaviour
+public class CustomCustomPlayerInputManager : MonoBehaviour
 {
     public Rigidbody rb;
     public Vector3 moveInput = Vector3.zero;
@@ -47,8 +47,7 @@ public class PlayerInputManager : MonoBehaviour
         Debug.Log($"Velocity: {rb.linearVelocity.magnitude}");
         Debug.Log($"Acceleration Timer: {accelerationTimer}");
         Debug.Log($"Current Scaled Force Multiplier: {scaledForceMultiplier}");
-
-
+        Debug.Log($"Move Input X: {moveInput.x}, Z: {moveInput.z}");
     }
 
     public void OnMove(InputAction.CallbackContext ctx)
